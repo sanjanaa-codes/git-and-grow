@@ -37,6 +37,22 @@ const sanobj = {name: "san" , job: "webdev"};
     console.log(obj);
 
 __________________________________________________________________________________________________________________
+Rendering Props II
+
+const App = () => {
+  return <div>
+    <Message text = "HI" bg = "blue" />
+  </div>;
+};
+export default App;
+
+const Message = (props) => {
+  const {text, bg} = props;
+  return(
+    <div style={{background: bg,}}>{text}</div>
+  )
+}
+  
 
 
 __________________________________________________________________________________________________________________
