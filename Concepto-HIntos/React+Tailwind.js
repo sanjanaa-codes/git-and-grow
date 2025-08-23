@@ -29,7 +29,12 @@ const Description = () => {
 Hello World
 This is my first react code
 __________________________________________________________________________________________________________________
+Destructuring
 
+const sanobj = {name: "san" , job: "webdev"};
+    const { name , job} = sanobj;
+    console.log(name);
+    console.log(obj);
 
 __________________________________________________________________________________________________________________
 
