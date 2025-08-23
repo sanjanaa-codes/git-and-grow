@@ -3,6 +3,7 @@ ________________________________________________________________________________
 Rendering Components -
   1. Components are rendered in self closing tags
   2. They can be called multiple times
+__________________________________________________________________________________________________________________
 
 const App = () => {
   return <div>
@@ -24,6 +25,9 @@ const Description = () => {
     This is my first react code
   </div>
 }
+
+Hello World
+This is my first react code
 __________________________________________________________________________________________________________________
 
 
