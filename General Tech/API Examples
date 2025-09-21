@@ -1,0 +1,77 @@
+🔹 1. Payment APIs (Razorpay, PayPal, Stripe, UPI)
+
+Where used: E-commerce checkout (Flipkart, Swiggy, Amazon).
+When you click “Pay Now”, the app calls Razorpay’s API.
+API handles payment verification, bank processing, success/failure response.
+
+Flow:
+App sends payment details → Razorpay API.
+Razorpay talks to your bank.
+API responds → "Payment Success" or "Failed".
+👉 You don’t need to build a bank system, just plug in Razorpay’s API.
+
+🔹 2. Maps & Location APIs (Google Maps, Mapbox)
+
+Where used: Ola, Uber, Zomato, Swiggy.
+App sends pickup & drop coordinates to Google Maps API.
+API responds with distance, ETA, best routes.
+
+Flow:
+App calls Google Maps API → “Give me route between A and B.”
+API responds with directions + traffic data.
+
+🔹 3. Social Media APIs (Instagram, Twitter/X, LinkedIn)
+
+Where used: Social sharing, login with Google/Facebook.
+Example: A blog lets you “Login with Google.”
+Your app doesn’t store your password — instead, it uses Google’s OAuth API to confirm your identity.
+
+Flow:
+User clicks “Login with Google.”
+Google API checks credentials.
+Google API responds with a secure token → app knows you’re verified.
+
+🔹 4. Messaging APIs (Twilio, WhatsApp Business API)
+
+Where used: OTP verification, notifications.
+Example: Amazon sends an OTP → uses SMS/WhatsApp API (like Twilio).
+
+Flow:
+
+App sends phone number + OTP → Twilio API.
+Twilio delivers SMS to your phone.
+API responds with delivery status.
+
+🔹 5. Weather APIs (OpenWeather, AccuWeather)
+
+Where used: Weather apps, airlines, farming apps
+Example: Google Weather widget fetches data from an API.
+
+Flow:
+App requests weather for Delhi.
+API sends JSON → { "temp": 32°C, "condition": "Cloudy" }.
+
+🔹 6. E-commerce APIs (Amazon Product Advertising API, Shopify API)
+
+Where used: Price comparison sites, affiliate marketing.
+Example: A website shows Amazon product prices without hosting data.
+It just calls Amazon’s API.
+
+Flow:
+Request → “Give me details of iPhone 15.”
+API responds → product name, price, image.
+
+🔹 7. Entertainment APIs (Spotify, YouTube, Netflix)
+
+Where used: Music apps, video apps.
+Example: Spotify recommends songs using its API.
+YouTube’s API lets other apps embed videos.
+
+Flow:
+App sends request → “Search songs with keyword Arijit Singh.”
+API responds with list of songs in JSON.
+
+✅ In short:
+
+APIs are connectors between apps and external services.
+Instead of building everything from scratch, companies use APIs (Payments, Maps, Messaging, Weather, etc.).
