@@ -1,0 +1,12 @@
+An API (Application Programming Interface) is like a menu in a restaurant:
+
+The restaurant (software/system) has a kitchen (internal logic, database, functions) where the food is prepared.
+The menu (API) tells you what you can order (what services/functions the system provides) and how to ask for them.
+You don’t need to know how the food is cooked (internal code) — you just place the order using the menu (API request), and the kitchen serves the dish (API response).
+
+In short:
+👉 API is a set of rules and tools that allows different software applications to communicate and share data with each other.
+
+Example:
+Google Maps API lets a cab app show live maps without building its own maps system.
+Payment Gateway API (like Razorpay or PayPal) allows apps to process payments securely.
