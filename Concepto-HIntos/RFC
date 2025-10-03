@@ -1,0 +1,21 @@
+7. RFC (React Functional Component)
+
+What: Boilerplate shortcut to create a functional component using VS Code extension ES7+ React Snippets.
+
+Example: typing rfc → auto generates code.
+
+// Example: App.js
+import React from "react";
+
+export default function App() {
+  return <h1>Hello RFC Component 🚀</h1>;
+}
+
+Interview Qs
+
+Q: What is RFC in React?
+A: It’s a snippet shortcut to create a functional component quickly.
+
+Q: Why are functional components preferred?
+A: Simpler, lightweight, use React Hooks.
+
