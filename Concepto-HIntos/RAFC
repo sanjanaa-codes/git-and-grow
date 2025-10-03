@@ -1,0 +1,21 @@
+8. RAFC (React Arrow Function Component)
+
+What: Similar to RFC but uses arrow functions.
+
+// Example: Header.js
+import React from "react";
+
+const Header = () => {
+  return <h2>Arrow Function Component ✅</h2>;
+};
+
+export default Header;
+
+Interview Qs
+
+Q: What is RAFC?
+A: Arrow Function Component template.
+
+Q: Any difference between RFC & RAFC?
+A: Both work the same, RAFC uses arrow syntax (modern JS style).
+
