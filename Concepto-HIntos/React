@@ -1,0 +1,12 @@
+15. React
+
+React = JS library for building UIs. Component-based, fast, reusable.
+
+Interview Qs
+
+Q: Is React a framework or library?
+A: Library.
+
+Q: Why React over plain JS?
+A: Faster, reusable components, better state handling.
+
