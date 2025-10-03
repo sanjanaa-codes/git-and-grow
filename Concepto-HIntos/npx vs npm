@@ -1,0 +1,7 @@
+6. npx vs npm
+
+Q: Difference between npm and npx?
+A: npm = installs packages, npx = runs packages without installing globally.
+
+Q: How do you create a new React app?
+A: Run "npx create-react-app my-app" (npx ensures you always use latest version).
