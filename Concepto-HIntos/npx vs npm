@@ -5,3 +5,14 @@ A: npm = installs packages, npx = runs packages without installing globally.
 
 Q: How do you create a new React app?
 A: Run "npx create-react-app my-app" (npx ensures you always use latest version).
+
+------------------------------------------------------------------------------------
+# Create new React app
+npx create-react-app my-app
+
+# Move into project
+cd my-app
+
+# Start project
+npm start
+
