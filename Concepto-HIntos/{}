@@ -1,0 +1,17 @@
+9. {} if not default exports
+
+What: Named exports require {} while importing.
+
+// utils.js
+export const add = (a, b) => a + b;
+
+// App.js
+import { add } from "./utils"; // curly braces required
+
+Interview Qs
+
+Q: When do we use {} in imports?
+A: For named exports (not default).
+
+Q: Can a file have multiple default exports?
+A: No, only one default per file.
