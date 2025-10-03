@@ -1,0 +1,23 @@
+17. Reusable Components
+
+Components can be reused across app.
+
+const Button = ({ text }) => (
+  <button className="px-4 py-2 bg-blue-500 text-white rounded">{text}</button>
+);
+
+Interview Qs
+
+Q: Why are components reusable in React?
+A: Because they are modular, independent, and accept props.
+
+18. Structured Code
+
+React projects follow folder structure (components, pages, hooks, utils).
+
+Helps maintainability and teamwork.
+
+Interview Qs
+
+Q: Why structure matters?
+A: Easier scaling, debugging, collaboration.
