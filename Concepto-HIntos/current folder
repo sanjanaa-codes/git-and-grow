@@ -1,0 +1,10 @@
+10. ./ current folder
+
+./ means current folder in imports.
+
+import Header from "./Header"; // from same folder
+
+Interview Qs
+
+Q: What does ./ mean in import paths?
+A: Importing from current directory.
