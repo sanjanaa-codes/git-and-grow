@@ -1,0 +1,10 @@
+11. src folder importance
+
+All React app code (components, CSS, utils) lives in src.
+
+Keeps project structured and separated from config files.
+
+Interview Qs
+
+Q: Why does React use a src folder?
+A: To keep app logic/code separate from build config.
