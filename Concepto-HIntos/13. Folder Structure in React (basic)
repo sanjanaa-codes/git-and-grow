@@ -1,0 +1,17 @@
+my-app/
+ ┣ src/
+ ┃ ┣ components/
+ ┃ ┃ ┗ Header.js
+ ┃ ┣ App.js
+ ┃ ┗ index.js
+ ┣ package.json
+ ┣ public/
+ ┗ node_modules/
+
+Interview Qs
+
+Q: Why do we use components/ folder?
+A: To keep UI reusable and organized.
+
+Q: What’s inside public/?
+A: Static files (index.html, favicon, images).
