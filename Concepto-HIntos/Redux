@@ -1,0 +1,11 @@
+16. Redux
+
+State management library for React. Keeps app data in one global store.
+
+Interview Qs
+
+Q: Why Redux?
+A: Centralized state, avoids prop drilling, predictable updates.
+
+Q: Alternative to Redux?
+A: Context API, Zustand, Recoil.
